@@ -43,10 +43,10 @@ body #wall #tag-2 + #tag-3 {
   display: none;
 }
 
-div#wall .parent + div.parent div:last-child div#tag-6 {
+#wall .parent + div.parent div:last-child div#tag-6 {
   display: none;
 }
 
-body div#wall .parent + div.parent div > #tag-7.slick {
+#wall .parent + div.parent div > #tag-7.slick {
   display: none;
 }
