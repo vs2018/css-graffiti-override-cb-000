@@ -1,1 +1,52 @@
-/* write your override styles here */
+/* write your override styles here 
+<div id="wall">
+    <div class="tag-1"></div>
+    <div id="tag-2"></div>
+    <div id="tag-3" class="slick wicked"></div>
+    <div class="parent">
+      <div id="tag-4"></div>
+    </div>
+    <div class="parent">
+      <div id="tag-5" class="slick"></div>
+    </div>
+    <div class="parent">
+      <div></div>
+      <div>
+        <div id="tag-6"></div>
+      </div>
+    </div>
+    <div class="parent">
+      <div>
+        <div id="tag-7" class="slick
+
+
+
+*/
+
+#wall .tag-1 {
+  display: none;
+}
+
+body #wall #tag-2 {
+  background: none;
+}
+
+body #wall #tag-2 + #tag-3 {
+  background: none;
+}
+
+#wall #tag-3 + .parent #tag-4 {
+  display: none;
+}
+
+#wall .parent + .parent #tag-5.slick {
+  display: none;
+}
+
+#wall .parent + div.parent div:last-child #tag-6 {
+  display: none;
+}
+
+#wall .parent + div.parent div > #tag-7.slick {
+  display: none;
+}
