@@ -43,7 +43,7 @@ body #wall #tag-2 + #tag-3 {
   display: none;
 }
 
-#wall .parent + div.parent div:last-child div#tag-6 {
+#wall .parent + div.parent div:last-child #tag-6 {
   display: none;
 }
 
