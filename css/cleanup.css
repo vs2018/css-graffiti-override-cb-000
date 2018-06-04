@@ -39,7 +39,7 @@ body #wall #tag-2 + #tag-3 {
   display: none;
 }
 
-div #wall #tag-3 + .parent +.parent #tag-4 {
+div#wall .parent #tag-5.slick {
   display: none;
 }
 
