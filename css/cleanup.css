@@ -35,7 +35,9 @@ body #wall #tag-2 + #tag-3 {
   background: none;
 }
 
-
+#wall #tag-3 + .parent #tag-4 {
+  display: none;
+}
 
 body #wall .parent #tag-5.slick {
   display: none;
